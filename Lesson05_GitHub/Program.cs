@@ -27,7 +27,6 @@ namespace Lesson05_GitHub
             Console.WriteLine($"rutulio turis V = {variable}, kai spindulio ilgis {spindulys}km");
             Console.WriteLine();
 
-
         }
     }
 }
