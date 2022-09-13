@@ -7,9 +7,21 @@ namespace Lesson05_GitHub
         static void Main(string[] args)
         {   
 
-            double pirmasis = 1;
-            double antrasis = 2;
-            double treciasis = 3;
+            double variable3= 333;
+            double a = 10.0;
+            double b = 15.0;
+            double c;
+            double sum = 0;
+
+            c = Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2));
+            Console.WriteLine(c);
+            variable3 = c;
+
+            //double sum = variable3 + variable2 + variable;
+            Console.WriteLine($"Suma: {sum}");
+            double average = sum / 3;
+            Console.WriteLine($"Vidurkis: {sum}");
+
         }
     }
 }
